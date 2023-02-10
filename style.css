@@ -1,0 +1,199 @@
+body{
+background-color: white;
+text-align: center;
+margin: 0;
+font-family: 'Merriweather',serif;
+
+}
+.top-container{
+   padding-top: 60px;
+background-color: #f0fff1;
+}
+.middle-container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: #f1fffa;
+}
+.bottom-container{
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #d1ffc6;
+}
+
+.top-p{
+    font-size: 1.7rem;
+    color: #52b788;
+
+}
+.top-cloud{
+    top: 70px;
+    right: 320px;
+    position: absolute;
+    width: 220px;
+}
+.bottom-cloud{
+position: absolute;
+left: 400px;
+width: 220px;
+} 
+.mountain{
+    width: 900px;
+}
+.top-main{
+    
+    font-family: 'Sacramento',cursive;
+    font-size:5.652rem;
+}
+h1{
+    color: #52b788;
+    margin: 150px auto 0 auto;
+    font-family: 'Sacramento',cursive;
+    font-weight: normal;
+}
+h2{
+    font-family: 'Merriweather Sans',sans-serif;
+    color: #40916c;
+    font-weight: normal;
+   
+}
+h3{
+    font-family: 'Merriweather Sans',sans-serif;
+    color: #40916c;
+    font-weight: normal;
+}
+.heading-skill{
+    font-size: 25px ;
+}
+.covno{
+    font-size: 30px;
+}
+.hello{
+    font-family: 'Merriweather Sans',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.footer-link{
+    color: #40916c;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn{
+    color: #40916c;
+}
+.skill-row{
+    width: 50%;
+margin: 100px auto 100px;
+text-align: left;
+line-height: 2;
+}
+.skill-coding{
+    width: 25%;
+    float: left;
+    margin-right: 60px;
+}
+.skill-photography{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.profile-photo{
+    width: 20%;
+}
+.bio{
+    color: #40514E;
+    padding-bottom: 40px;
+    margin: auto auto 40px auto;
+    width: 30%;
+}
+.middle-hr{
+    border-top: 5px dotted grey ;
+    border-bottom: none;
+    border-left: none;
+  
+    width: 5%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.myskill{
+    font-family: 'Merriweather Sans',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.BUTTON_JWL {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    height: 5px;
+    line-height: 5px;
+    color: #B7EFC5;
+    font-family: Verdana;
+    width: 149px;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 19px;
+    background-color: #10451D;
+    text-shadow: 1px 1px 20px #000000;
+   
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+ }
+ 
+ .BUTTON_JWL:hover {
+   
+    background: #007200;
+    background-image: -webkit-linear-gradient(top, #25A244, #25A244);
+    background-image: -moz-linear-gradient(top, #25A244, #25A244);
+    background-image: -ms-linear-gradient(top, #25A244, #25A244);
+    background-image: -o-linear-gradient(top, #25A244, #25A244);
+    background-image: -webkit-gradient(to bottom, #25A244, #25A244);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+ }
+ .footer-link:hover{
+    color: #40916c;
+    text-decoration: underline;
+ }
+ .copyright{
+    font-size: medium;
+    margin-top: 70px;
+ }
+ @media (max-width: 1028px){
+    .mountain{
+        width: 400px;
+
+    }
+    .top-cloud{
+        width: 130px;
+        right: 40px;
+    }
+    .bottom-cloud{
+        width: 130px;
+        left: 10px;
+
+    }
+    .top-main{
+    
+        font-family: 'Sacramento',cursive;
+        font-size:4rem;
+        margin-top: 100px;
+       
+    }
+    .bio{
+        width: 70%;
+    }
+    .top-p{
+        font-size: 1.2rem;
+    }
+    .profile-photo{
+     margin-top: 100px;
+        width: 40%;
+    }
+ }
+ 
